@@ -137,7 +137,6 @@ print("You can ask complex questions, and the system will autonomously search fo
 
 agent = create_llm_agent()
 
-# Example - Create a comprehensive report on the impact of artificial intelligence in healthcare, including recent developments and future prospects. Include relevant YouTube videos.
 user_input = input("What would you like to know? : ")
 
 result = agent.invoke({"input": user_input})
